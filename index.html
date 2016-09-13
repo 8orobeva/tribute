@@ -17,12 +17,24 @@
     <![endif]-->
 
     <!-- normalize css -->
-    <link rel="stylesheet" href="normalize.css.css">
+    <link rel="stylesheet" href="normalize.css">
 
     <!-- main styles -->
     <link rel="stylesheet" href="all.css">
 </head>
 <body>
+<script>
+    $(document).ready(function(){
+        $("#header").removeClass("default");
+        $(window).scroll(function () {
+            if ($(this).scrollTop()>70) {
+                $("#header").addClass("default").fadeIn('fast');
+            } else {
+                $("#header").removeClass("default").fadeIn('fast');
+            }
+        });
+    });
+</script>
 <div class=" wrapper">
 <div class="jumbotron jumbotron-bg" id="site-top">
     <div class="container-fluid">
@@ -212,6 +224,6 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="bootstrap.min.js"></script>
 </body>
 </html>

@@ -124,6 +124,12 @@ a:focus{
 .authors-photo{
     margin-left:6px;
 }
+
+.default{
+    position:fixed;
+    color:red;
+    background: dodgerblue;
+}
 /*
 ol>li{
     position:relative;
