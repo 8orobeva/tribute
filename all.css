@@ -1,3 +1,4 @@
+/* basic settings */
 html{
     width:100%;
     height:100%;
@@ -5,6 +6,13 @@ html{
 body{
     width:100%;
     height:100%;
+}
+*{
+    box-sizing:border-box;
+}
+a:hover,
+a:focus{
+    text-decoration:none;
 }
 .wrapper{
     min-height:100%;
@@ -19,6 +27,8 @@ body{
 .empty{
     height:360px;
 }
+
+/* main containers */
 .jumbotron-bg {
     background: url("jumbotron-background.jpg") top center no-repeat;
     background-size: cover;
@@ -26,6 +36,45 @@ body{
 .content-indent{
     padding-top:250px;
 }
+.btn-container{
+    height:253px;
+    background:url(btn-container-bg.jpg)top center no-repeat;
+    background-size: cover;
+    padding:97px 0 0;
+    box-shadow: 0 0 19px rgba(0, 0, 0, .5);
+}
+.blockquote-container{
+    margin:58px 0;
+}
+.return-container{
+    margin: 10px 0 40px;
+}
+.footer .row{
+  height: 100%;
+}
+.prev-container,
+.next-container{
+    height: 100%;
+    transition:1s;
+    padding: 72px 0 0 66px;
+    box-shadow:inset 0 0 200px 70px #000;
+}
+.prev-container{
+    background: url("colored-prev-bg.jpg")top center no-repeat;
+}
+.next-container{
+    background: url("colored-next-bg.jpg") top center no-repeat;
+
+}
+.next-prev{
+    margin: 0 0 58px;
+}
+.prev-container:hover,
+.next-container:hover{
+    transition:1s;
+    box-shadow:inset 0 0 200px 20px #000;
+}
+/* text, links */
 .page-title-text,
 .page-title-text a{
     color:#fff;
@@ -38,3 +87,75 @@ body{
 .text-bold{
     font-weight: bold;
 }
+.return-link{
+    color: #a8a8a8;
+    transition:0.5s;
+}
+.return-link span{
+    display:inline-block;
+    width:100%;
+}
+.return-link:hover{
+    color:#d7d7d7;
+    transition:0.5s;
+}
+.prev-container a,
+.next-container a{
+    display:block;
+    width:100%;
+    height: 100%;
+}
+/* buttons */
+.btn-more-info{
+    color:#2ecc71;
+    border:2px solid #2ecc71;
+    border-radius:60px;
+    transition:0.5s;
+}
+.btn-more-info span{
+    margin-right:6px;
+}
+.btn-more-info:hover{
+    color:#d7d7d7;
+    border:2px solid #d7d7d7;
+    transition:0.5s;
+}
+/* explicit classes */
+.authors-photo{
+    margin-left:6px;
+}
+/*
+ol>li{
+    position:relative;
+}
+ol::before{
+    content:'par';
+    color: #d7d7d7;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:0.8em;
+    position:relative;
+    left:-40px;
+}
+ol>li:first-child::before,
+ol>li:nth-child(2)::before,
+ol>li:nth-child(3)::before,
+ol>li:nth-child(4)::before{
+    content:'1.';
+    color:#d7d7d7;
+    position: absolute;
+    left:-45px;
+    top:-5px;
+    font-size:2em;
+    font-style: italic;
+}
+ol>li:nth-child(2)::before{
+    content:'2.';
+}
+ol>li:nth-child(3)::before{
+    content:'3.';
+}
+ol>li:nth-child(4)::before{
+    content:'4.';
+}
+*/

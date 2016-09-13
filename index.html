@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class=" wrapper">
-<div class="jumbotron jumbotron-bg">
+<div class="jumbotron jumbotron-bg" id="site-top">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 content-indent page-title-text">
@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="text-uppercase secondary-text text-bold"><small>Made by</small></div>
-                        <div>Anastasia <span class="text-uppercase text-bold">Vorobeva</span> <img src="uQmR84fRK_g.jpg" alt="author's photo" class="img-circle" width="28px"></div>
+                        <div>Anastasia <span class="text-uppercase text-bold">Vorobeva</span> <img src="uQmR84fRK_g.jpg" alt="authors photo" class="img-circle authors-photo" width="28px"></div>
                      </div>
                     <div class="col-md-6 text-right">
                         <ul class="list-unstyled list-inline">
@@ -51,11 +51,6 @@
 <div class="container-fluid">
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
-        <div class="row">
-            <div class="col-md-1">
-                <h5 class="text-uppercase"><small class="secondary-text">paragraph</small></h5>
-            </div>
-        </div>
         <div class="row">
             <div class="col-md-12">
             <ol class="list-unstyled">
@@ -158,13 +153,13 @@
                 </li>
                 <li>
                     <h3>Personal life</h3>
-                    <p>She graduated from New York University in 2009, majoring in psychology. She was once roommates with Rachel Bloom after college in Brooklyn. She revealed to The New Yorker that she smokes marijuana every day, but rarely drinks alcohol.[</p>
+                    <p>She graduated from New York University in 2009, majoring in psychology. She was once roommates with Rachel Bloom after college in Brooklyn. She revealed to The New Yorker that she smokes marijuana every day, but rarely drinks alcohol.</p>
                 </li>
             </ol>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 blockquote-container">
                 <blockquote class="blockquote-reverse">
                     <p class="lead">I just want to lay with, like, a lot of pugs, you know?</p>
                     <footer>Ilana's quote, <cite title="https://twitter.com/broadcityqs">Twitter</cite></footer>
@@ -172,9 +167,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 text-center">
-                <a href="#" class="text-uppercase">
-                <span class="glyphicon glyphicon-menu-up"></span><br>
+            <div class="col-md-12 text-center return-container">
+                <a href="#site-top" class="text-uppercase text-bold return-link">
+                <span class="glyphicon glyphicon-menu-up"></span>
                 Back to top
                 </a>
             </div>
@@ -182,10 +177,10 @@
     </div>
 </div>
 </div>
-<div class="container-fluid share-btn-bg">
+<div class="container-fluid btn-container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center">
-            <button class="btn text-uppercase btn-lg"><span class="glyphicon glyphicon-share"></span>Share this article</button>
+            <a class="btn btn-more-info text-uppercase btn-lg" href="https://en.wikipedia.org/wiki/Ilana_Glazer" target="_blank"><span class="glyphicon glyphicon-new-window"></span>See more information</a>
         </div>
     </div>
 </div>
@@ -193,10 +188,25 @@
 <div class="empty"></div>
 <div class="container-fluid footer">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 prev-container">
+            <a href="#">
+                <div class="page-title-text">
+                    <div class="next-prev"><span class="text-uppercase text-bold ">Previous</span></div>
+                    <h2>Lorem ipsum.../h2>
+                    <p class="lead secondary-text"><em>lorem ipsum dolor sit amet</em></p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 next-container">
+            <a href="#">
+                <div class="page-title-text">
+                    <div class="next-prev"><span class="text-uppercase text-bold ">Next</span></div>
+                    <h2>Lorem ipsum...</h2>
+                    <p class="lead secondary-text"><em>lorem ipsum dolor sit amet</em></p>
+                </div>
+            </a>
 
         </div>
-        <div class="col-md-6"></div>
     </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
