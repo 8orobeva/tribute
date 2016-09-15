@@ -115,7 +115,8 @@ a:focus{
 .btn-more-info span{
     margin-right:6px;
 }
-.btn-more-info:hover{
+.btn-more-info:hover,
+.btn-more-info:focus{
     color:#d7d7d7;
     border:2px solid #d7d7d7;
     transition:0.5s;
@@ -124,44 +125,6 @@ a:focus{
 .authors-photo{
     margin-left:6px;
 }
-
-.default{
-    position:fixed;
-    color:red;
-    background: dodgerblue;
+.social-icons{
+    margin-top:20px;
 }
-/*
-ol>li{
-    position:relative;
-}
-ol::before{
-    content:'par';
-    color: #d7d7d7;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size:0.8em;
-    position:relative;
-    left:-40px;
-}
-ol>li:first-child::before,
-ol>li:nth-child(2)::before,
-ol>li:nth-child(3)::before,
-ol>li:nth-child(4)::before{
-    content:'1.';
-    color:#d7d7d7;
-    position: absolute;
-    left:-45px;
-    top:-5px;
-    font-size:2em;
-    font-style: italic;
-}
-ol>li:nth-child(2)::before{
-    content:'2.';
-}
-ol>li:nth-child(3)::before{
-    content:'3.';
-}
-ol>li:nth-child(4)::before{
-    content:'4.';
-}
-*/
