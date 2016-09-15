@@ -95,7 +95,8 @@ a:focus{
     display:inline-block;
     width:100%;
 }
-.return-link:hover{
+.return-link:hover,
+.return-link:focus {
     color:#d7d7d7;
     transition:0.5s;
 }
