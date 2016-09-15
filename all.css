@@ -55,6 +55,9 @@ a:focus{
 .prev-container,
 .next-container{
     height: 100%;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -o-transition:1s;
     transition:1s;
     padding: 72px 0 0 66px;
     box-shadow:inset 0 0 200px 70px #000;
@@ -71,6 +74,9 @@ a:focus{
 }
 .prev-container:hover,
 .next-container:hover{
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -o-transition:1s;
     transition:1s;
     box-shadow:inset 0 0 200px 20px #000;
 }
@@ -89,6 +95,9 @@ a:focus{
 }
 .return-link{
     color: #a8a8a8;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
     transition:0.5s;
 }
 .return-link span{
@@ -98,6 +107,9 @@ a:focus{
 .return-link:hover,
 .return-link:focus {
     color:#d7d7d7;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
     transition:0.5s;
 }
 .prev-container a,
@@ -111,6 +123,9 @@ a:focus{
     color:#2ecc71;
     border:2px solid #2ecc71;
     border-radius:60px;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
     transition:0.5s;
 }
 .btn-more-info span{
@@ -120,6 +135,9 @@ a:focus{
 .btn-more-info:focus{
     color:#d7d7d7;
     border:2px solid #d7d7d7;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
     transition:0.5s;
 }
 /* explicit classes */
